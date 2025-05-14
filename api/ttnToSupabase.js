@@ -23,10 +23,10 @@ export default async function handler(req, res) {
   };
 
   // Odeslání do Supabase
-  const result = await fetch("https://YOUR_PROJECT.supabase.co/rest/v1/measurements", {
+  const result = await fetch("https://odteybpzzqgvjcezvnhh.supabase.co/rest/v1/measurements", {
     method: "POST",
     headers: {
-      "apikey": "YOUR_SERVICE_ROLE_KEY",
+      "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9kdGV5YnB6enFndmpjZXp2bmhoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NzI0NzA5OSwiZXhwIjoyMDYyODIzMDk5fQ.fRKmF6Dcr5YOxZn0svgJk9V4YMWkxL1qVt0ciLycLS4",
       "Content-Type": "application/json",
       "Prefer": "return=minimal"
     },
