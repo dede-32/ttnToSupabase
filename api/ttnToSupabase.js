@@ -14,10 +14,10 @@ export default async function handler(req, res) {
     bvoc: payload.bvoc,
     co2: payload.co2,
     noise_dbc: payload.noise_dbc,
-    pm1_0: payload.pm1_0,
-    pm1_0_2_5: payload.pm1_0_2_5,
-    pm2_5_4_0: payload.pm2_5_4_0,
-    pm4_0_10: payload.pm4_0_10,
+    pm1: payload.pm1_0,
+    pm2_5: payload.pm1_0_2_5,
+    pm4: payload.pm2_5_4_0,
+    pm10: payload.pm4_0_10,
     typical_size: payload.typical_size,
     timestamp: new Date().toISOString()
   };
