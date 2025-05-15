@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     pm4: payload.pm2_5_4_0,
     pm10: payload.pm4_0_10,
     typical_size: payload.typical_size,
-    baterry_percent: payload.battery_percent,
+    battery_percent: payload.battery_percent,
     timestamp: new Date().toISOString()
   };
 
